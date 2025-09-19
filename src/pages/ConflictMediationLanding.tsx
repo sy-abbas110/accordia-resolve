@@ -33,9 +33,20 @@ const ConflictMediationLanding = () => {
       
       {/* Hero Section */}
       <section className="min-h-screen bg-hero-gradient flex items-center relative overflow-hidden">
-        {/* Decorative blobs */}
-        <div className="absolute -top-20 -right-20 w-96 h-96 bg-gradient-to-br from-lavender/20 to-coral/20 rounded-full opacity-20 blur-3xl" />
-        <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-gradient-to-br from-mint/20 to-lavender/20 rounded-full opacity-20 blur-3xl" />
+        {/* Organic blob decorations */}
+        <div className="absolute -top-32 -right-32 w-[500px] h-[400px] bg-gradient-to-br from-lavender/15 to-coral/10 rounded-[100px] opacity-30 blur-2xl rotate-12" />
+        <div className="absolute top-20 right-10 w-64 h-48 bg-gradient-to-bl from-mint/20 to-transparent rounded-[80px] opacity-40 rotate-45" />
+        <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-gradient-to-tr from-mint/15 to-lavender/10 rounded-[120px] opacity-25 blur-xl -rotate-12" />
+        <div className="absolute bottom-32 left-20 w-48 h-32 bg-gradient-to-r from-coral/15 to-transparent rounded-[60px] opacity-30 rotate-12" />
+        <div className="absolute top-1/2 left-1/4 w-32 h-24 bg-gradient-to-br from-lavender/10 to-mint/5 rounded-[40px] opacity-20 -rotate-45" />
+        
+        {/* Peace dove illustration using CSS */}
+        <div className="absolute top-20 left-1/3 w-16 h-12 opacity-10">
+          <div className="relative">
+            <div className="absolute w-8 h-6 bg-gradient-to-r from-coral/30 to-mint/20 rounded-full transform rotate-12 blur-sm"></div>
+            <div className="absolute top-1 left-2 w-6 h-4 bg-gradient-to-l from-lavender/25 to-coral/15 rounded-full transform -rotate-45 blur-sm"></div>
+          </div>
+        </div>
         
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-20">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -83,7 +94,11 @@ const ConflictMediationLanding = () => {
       </section>
 
       {/* Problem/Solution Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 relative overflow-hidden">
+        {/* Decorative organic shapes */}
+        <div className="absolute -top-20 right-10 w-72 h-48 bg-gradient-to-bl from-coral/8 to-lavender/5 rounded-[80px] opacity-30 rotate-45 blur-xl" />
+        <div className="absolute bottom-10 -left-20 w-64 h-40 bg-gradient-to-tr from-mint/10 to-coral/5 rounded-[90px] opacity-25 -rotate-12 blur-lg" />
+        
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="relative overflow-hidden rounded-2xl bg-soft-pink p-8 md:p-12">
@@ -138,7 +153,12 @@ const ConflictMediationLanding = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-16 md:py-24 bg-secondary">
+      <section id="services" className="py-16 md:py-24 bg-secondary relative overflow-hidden">
+        {/* Organic background elements */}
+        <div className="absolute top-20 -left-32 w-80 h-56 bg-gradient-to-r from-lavender/6 to-mint/4 rounded-[100px] opacity-40 rotate-12 blur-2xl" />
+        <div className="absolute -bottom-20 right-20 w-96 h-64 bg-gradient-to-l from-coral/8 to-lavender/4 rounded-[120px] opacity-30 -rotate-12 blur-xl" />
+        <div className="absolute top-1/2 right-10 w-40 h-28 bg-gradient-to-bl from-mint/8 to-transparent rounded-[50px] opacity-25 rotate-45" />
+        
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4">
@@ -191,7 +211,17 @@ const ConflictMediationLanding = () => {
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="py-16 md:py-24">
+      <section id="how-it-works" className="py-16 md:py-24 relative overflow-hidden">
+        {/* Flowing organic decorations */}
+        <div className="absolute -top-16 left-1/4 w-60 h-40 bg-gradient-to-br from-mint/8 to-coral/5 rounded-[70px] opacity-35 -rotate-12 blur-lg" />
+        <div className="absolute bottom-20 right-1/3 w-48 h-32 bg-gradient-to-tl from-lavender/10 to-mint/6 rounded-[60px] opacity-30 rotate-45 blur-md" />
+        
+        {/* Subtle dove shapes */}
+        <div className="absolute top-32 right-20 w-12 h-8 opacity-8">
+          <div className="w-6 h-4 bg-gradient-to-r from-coral/20 to-mint/15 rounded-full blur-sm transform rotate-12"></div>
+          <div className="absolute top-0.5 left-1 w-4 h-3 bg-gradient-to-l from-lavender/15 to-coral/10 rounded-full blur-sm transform -rotate-30"></div>
+        </div>
+        
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4">
@@ -249,7 +279,12 @@ const ConflictMediationLanding = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-16 md:py-24 bg-soft-purple">
+      <section className="py-16 md:py-24 bg-soft-purple relative overflow-hidden">
+        {/* Layered organic shapes */}
+        <div className="absolute -top-24 -right-24 w-88 h-60 bg-gradient-to-bl from-coral/6 to-lavender/4 rounded-[110px] opacity-35 rotate-12 blur-2xl" />
+        <div className="absolute bottom-16 -left-16 w-72 h-48 bg-gradient-to-tr from-mint/8 to-coral/4 rounded-[80px] opacity-25 -rotate-45 blur-xl" />
+        <div className="absolute top-1/3 left-20 w-36 h-24 bg-gradient-to-r from-lavender/6 to-transparent rounded-[40px] opacity-20 rotate-30" />
+        
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4">
@@ -322,7 +357,11 @@ const ConflictMediationLanding = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-16 md:py-24">
+      <section id="testimonials" className="py-16 md:py-24 relative overflow-hidden">
+        {/* Soft background elements */}
+        <div className="absolute top-10 right-16 w-56 h-36 bg-gradient-to-bl from-mint/6 to-lavender/4 rounded-[70px] opacity-30 rotate-45 blur-lg" />
+        <div className="absolute -bottom-16 left-10 w-64 h-44 bg-gradient-to-tr from-coral/8 to-mint/5 rounded-[90px] opacity-25 -rotate-12 blur-xl" />
+        
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4">
@@ -359,7 +398,11 @@ const ConflictMediationLanding = () => {
       </section>
 
       {/* Mediator Team Section */}
-      <section id="mediators" className="py-16 md:py-24 bg-secondary">
+      <section id="mediators" className="py-16 md:py-24 bg-secondary relative overflow-hidden">
+        {/* Professional organic accents */}
+        <div className="absolute top-24 -left-20 w-68 h-44 bg-gradient-to-r from-lavender/7 to-coral/4 rounded-[85px] opacity-30 rotate-12 blur-xl" />
+        <div className="absolute -bottom-24 right-16 w-80 h-52 bg-gradient-to-l from-mint/6 to-lavender/3 rounded-[100px] opacity-25 -rotate-45 blur-2xl" />
+        
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4">
